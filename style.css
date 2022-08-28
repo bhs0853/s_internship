@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    background-image: url(images/index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    color: rgb(20, 67, 237);
+    font-size: 20px;
+}
+.head{
+    margin-top: 0%;
+    padding: top;
+    background-color:rgba(255, 255, 255, 0.848);
+}
+#nav{
+    text-align: right;
+    color: black;
+    font: normal normal .35cm Arial;
+    word-spacing: 0.3cm;
+}
+.home{
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    text-align: bottom;
+    justify-content: bottom;
+    align-items: flex-end;
+    background-color: white;
+    color: black;
+}
+
