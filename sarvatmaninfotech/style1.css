@@ -55,4 +55,15 @@ nav a:hover{
     align: center;
     padding: 1%;
 }
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+select,
+textarea{
+    padding: 5px;
+    width: 20%;
+    border-width: 1.5px;
+    margin: 5px;
+}
 
