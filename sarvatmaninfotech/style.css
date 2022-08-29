@@ -61,6 +61,7 @@ nav a:hover{
     padding:15px 55px 15px 55px;
     position: absolute;
     left: calc(50% - 106px);
+    cursor: pointer;
 }
 .footer{
     top: 3700%;
