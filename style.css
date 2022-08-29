@@ -1,36 +1,59 @@
+*{
+    margin: 0%;
+}
 body{
     position: relative;
     background-image: url(images/index.jpeg);
+    background-blend-mode: saturation;
     background-repeat: no-repeat;
     background-size: cover;
+    background: -o-linear-gradient(rbga(255,255,255,0.5),rbga(255,255,255,0.5),url(images/index.jpeg));
     margin-top: 0%;
     margin: 0%;
     padding: 0%;
 }
 .logo{
+    padding: 1%;
     color: rgb(20, 67, 237);
     font-size: 20px;
 }
-.head{
+.head{  
     margin-top: 0%;
-    padding: top;
+    padding: 0%;
     background-color:rgba(255, 255, 255, 0.848);
 }
 #nav{
+    margin: 0%;
     text-align: right;
     color: black;
     font: normal normal .35cm Arial;
-    word-spacing: 0.3cm;
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
 }
 .home{
-    top: 50%;
-    transform: translateY(-50%);
+    top: 200%;
+    transform: translateY(200%);
     color: white;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+.firsttxt{
+    font-size: 300%;
+    font-style: normal;
+}
+.sectxt{
+    font-size: 120%;
+}
+whatsapplink a:hover{
+    color: green;
+}
 .footer{
+    top: 3700%;
+    transform: translateY(3700%);
+    position: relative;
     text-align: bottom;
     justify-content: bottom;
     align-items: flex-end;
