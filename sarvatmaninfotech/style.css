@@ -74,3 +74,35 @@ nav a:hover{
     color: black;
 }
 
+/*edited code*/
+body{
+    position: relative;
+}
+header{
+    position: sticky;
+
+    top:0;
+}
+body{
+    position: relative;
+}
+.text{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+#nav a{
+    display: inline-block;
+    margin-right:25px;
+   
+    padding:5px;
+}
+nav{
+    
+    display: inline-block;
+   position: absolute;
+   right: 0;
+    margin-top:0;
+}
+
+
