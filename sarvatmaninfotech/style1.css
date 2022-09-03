@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+}
+.logo{
+    padding: 1%;
+    color: rgb(20, 67, 237);
+    font-size: 20px;
+}
+.head{  
+    margin-top: 0%;
+    padding: 0%;
+    background-color:rgba(255, 255, 255, 0.848);
+}
+#nav{
+    margin: 0%;
+    text-align: right;
+    font: normal normal .35cm Arial;
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
+}
+#wwd{
+    font-family: sans-serif;
+    text-align: center;
+    align: center;
+    padding: 5%;
+}
+.about0{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.wwd1{
+    font-family: sans-serif;
+    font-size: 58px!important;
+    font-weight: 700;
+    grid-area: title;
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.wwd2{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    grid-area: tagline;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    word-break: break-word;
+    font-weight: 300;
+}
+.home{
+    top: 200%;
+    transform: translateY(200%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    top: 3700%;
+    transform: translateY(3700%);
+    position: relative;
+    text-align: bottom;
+    justify-content: bottom;
+    align-items: flex-end;
+    background-color: white;
+    color: black;
+}
+body{
+    position: relative;
+    background-color: #2c3e50;
+}
+header{
+    position: sticky;
+    top:0;
+}
+.text{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+#nav a{
+    display: inline-block;
+    margin-right:25px;
+    padding:5px;
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top:0;
+}
+.tagline{
+    display: inline;
+    position: absolute;
+    left: 13.5%;
+    top: 37px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offering{
+    text-align: center;
+    align:center;
+}
+.image{
+    text-align: center;
+    align:center;
+    height: 200px;
+}
+.submit{
+    border: 20px 5px;
+    margin-left: 90px;
+}
