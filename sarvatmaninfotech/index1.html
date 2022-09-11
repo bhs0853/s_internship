@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvatman InfoTech</title>
+    <link rel="stylesheet" href="style1.css">
+<style>
+ .title{
+    font-size: 20px;
+    font-weight: 400;
+    grid-area: header;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.os{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 58;
+    font-weight: 700;
+    justify-content: center;
+    grid-area:auto;
+    letter-spacing: 0;
+    line-height: 1.25;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: rgb(2, 2, 5);
+
+}
+.about {
+    position: relative;
+}
+#aboutbusiness{
+    font-size: 24px!important;
+    line-height: 1.5;
+    word-break: break-word;
+    color: #282725;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 400px;
+}
+.about h3{
+    text-align: left;
+}
+
+.body {
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.bubble-1 {
+    background: #00bcd4;
+    top: 85%;
+    left: 255px;
+    -webkit-animation: spin1 1s infinite alternate;
+    animation: spin1 1s infinite alternate;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes spin1
+{
+  from { margin-top: 50px;
+         margin-bottom: 100px; }
+  to   { margin-top: 100px !important; /* ignored */
+         margin-bottom: 50px; 
+        margin-left: 20px;}
+}
+
+.bubble-2 {
+    background: #00c99c;
+    top: 40%;
+    left: 85px;
+    -webkit-animation: spin2 2s infinite alternate;
+    animation: spin2 2s infinite alternate;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes spin2
+{
+  from { margin-top: 50px;
+         margin-bottom: 100px; }
+  to   { margin-top: 150px !important; /* ignored */
+         margin-bottom: 50px; }
+  }
+.bubble-3 {
+    background: rgb(103 58 183 / 50%);
+    bottom: 100px;
+    left: 155px;
+    -webkit-animation: spin2 2s infinite alternate;
+    animation: spin2 2s infinite alternate;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes spin2
+{
+  from { margin-top: 50px;
+         margin-bottom: 100px; }
+  to   { margin-top: 150px !important; /* ignored */
+         margin-bottom: 50px; }
+}
+.bubble-4 {
+    background: #1167ca;
+    top: 40%;
+    right: 85px;
+    -webkit-animation: spin1 2s infinite alternate;
+    animation: spin1 2s infinite alternate;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes spin2
+{
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+.bubble-5 {
+    background: rgb(20 138 239 / 50%);
+    top: 50%;
+    right: 155px;
+    -webkit-animation: spin1 3s infinite alternate;
+    animation: spin1 3s infinite alternate;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes spin1
+{
+  from { margin-top: 50px; }
+  50%  { margin-top: 150px !important; } /* ignored */
+  to   { margin-top: 100px; }
+}
+.bubble-6 {
+    background: #f1d53b;
+    top: 85%;
+    right: 55px;
+    -webkit-animation: spin2 2s infinite alternate;
+    animation: spin2 2s infinite alternate;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 50%;
+}
+@keyframes spin2
+{
+  from { margin-top: 50px;
+         margin-bottom: 100px; }
+  to   { margin-top: 150px !important; /* ignored */
+         margin-bottom: 50px; }
+}
+.wwdo{
+    position: relative;
+    background-color: #2c3e50;
+    padding-bottom: 100px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.offering{
+    text-align: center;
+    align:center;
+    height: 300px;
+    width: 400px;
+}
+.image{
+    text-align: center;
+    align:center;
+    height: 200px;
+}
+.image1{
+    text-align: center;
+    align:center;
+    height: 200px;
+}
+.submit{
+    border: 20px 5px;
+    margin-left: 90px;
+}
+.form{
+    color: #eaeaea;
+    margin: 3%;
+    font-size: larger;  
+}
+.form:hover{
+    color:black;
+}
+.offering:hover {
+    color: black !important;
+    background-color: #eaeaea;
+    border: 50px 100px;
+    padding: 100px 50px;
+}
+.offering:hover .form{
+    color: black !important;
+}
+.offering1:hover {
+    color: black !important;
+    background-color: #eaeaea;
+    border: 50px 100px;
+    padding: 100px 50px;
+}
+.offering1:hover .form{
+    color: black !important;
+}
+.container{
+    grid-row-start:container;
+    grid-column-start:container;
+    grid-template-areas:
+    "header header "
+    "title title "
+    "tagline tagline "
+    "container container";
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2,1fr);
+    font-family: 'Open sans',sans-serif;
+    align-items: center;
+    text-align: center;
+    margin-left: 380px;           
+}
+.figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+@media (max-width: 767.98px){
+    *{
+        box-sizing: border-box;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 300;
+    }
+}
+</style>
+</head>
+<body>
+    <main>
+        <section class="about" id="aboutUs">
+             <div class="bubble-1"></div>
+             <div class="bubble-2"></div>
+             <div class="bubble-3"></div>         
+             <div class="bubble-4"></div>         
+             <div class="bubble-5"></div>
+             <div class="bubble-6"></div>         
+          <div class="section">
+                <div class="title">
+                <h1>------ABOUT US------</h1>
+                </div>
+                <div class="content">
+                <h3 class="os">
+                    Our <br> Story
+                </h3>
+                <p id="aboutbusiness">
+                    SARVATMAN INFOTECH(OPC) PRIVATE LIMITED is a Pune based company working towards  <br>
+                    excellence in the Software, and believe in pursuing business through innovation  <br>
+                    and technology. Our team comes with several years of industry experience, and    <br>
+                    comprises a highly motivated set of specialists. We are an experienced, dedicated<br>
+                    and energetic team, cognizant of the market and our customer's requirements. Keep<br>
+                    scrolling to know more about our offerings!                                      <br>
+                </p>
+                </div>
+          </div>
+        </section>
+        <section class="wwdo">
+            <div id="wwd" style="color: #eaeaea; padding-top: 20px;">
+                <h3 class="about0" style="width: 1200px;">
+                    ---------- OUR SERVICES ----------
+                 </h3>
+                 <h1 class="wwd1">Our Expertise</h1>
+                 <h3 class="wwd2" >We would like to hear from you on your core offering to update this section.</h3>
+            </div>
+            <div class="container">
+                <div class="offering" style="text-decoration:none">
+                    <figure>
+                        <img src="images/offering.png" alt="reload" class="image" >
+                        <figcaption>
+                            <h4 class="form">IT PROJECTS</h4> <br>
+                            <a href="form.html" class="form" style="text-decoration:none">
+                                Your IT needs is our responsibility <br> You name it, We do it 
+                            </a>
+                        </figcaption>
+                    </figure>              
+                </div>
+                <div class="offering1" style="text-decoration: none;width: 320px;">
+                    <figure>
+                        <img src="images/offering1.png" alt="reload" class="image1">
+                        <figcaption>
+                            <h4 class="form">STAFFING SERVICES</h4> <br>
+                            <a href="form.html" class="form" style="text-decoration:none">
+                                We employ and they work for you 
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
