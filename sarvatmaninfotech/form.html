@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><form action="" method="get"></form></title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        * {
+    box-sizing:content-box;
+}
+body{
+    margin: 15px 30px;
+    padding: 8px;
+}
+.form1{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    align:center;
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.heading{
+    text-align: center;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #4eada1;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    width: 40%;
+}
+    </style>
+</head>
+<body>
+    <div class="form1">
+        <form action="mail.php" method="post">  
+            <h1 class="heading">Please Provide Details</h1>
+            <hr>
+            <h3 class="form"> 
+                Name: <br> <input type="text" name="name" required placeholder="xyz">
+            </h3>
+            <h3 class="form">
+                Email ID:<br> <input type="email" name="email" required placeholder="xyz@xyz.com">
+            </h3>
+            <h3 class="form">
+                Phone Number: <br> <input type="number" name="number" required placeholder="9999999">
+            </h3>
+            <h3 class="form">
+                Your Company Name: <br> <input type="text" name="Your Company Name" required placeholder="xyz">
+            </h3>
+            <h3 class="form">
+                Your Requirement: <br> <textarea placeholder="IT SERVICES / STAFFING SERVICES" cols="75" rows="10"></textarea>
+            </h3>
+            <h3 class="submit">
+                <input type="submit" value="SUBMIT">
+            </h3>
+        </form>
+    </div>
+</body>
+</html>
